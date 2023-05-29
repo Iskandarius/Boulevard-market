@@ -1,0 +1,38 @@
+@media screen and (max-width:991px) {
+    .collection {
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .desc__item-p,
+    .desc__design-p,
+    .collection__cards-item-h,
+    .collection__cards-item-p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    
+}
+
+@media screen and (max-width:576px) {
+    
+}
+
+@media screen and (max-width:460px) {
+    
+}
+
+@media screen and (max-width:420px) {
+    
+}
+
+@media screen and (max-width:360px) {
+    
+}
+
+@media screen and (max-width:320px) {
+    
+}
