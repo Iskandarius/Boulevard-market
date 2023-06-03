@@ -14,23 +14,220 @@
 }
 
 @media screen and (max-width:640px) {
-    
+    .banner {
+        background: url(../img/banner.png) no-repeat center/cover;
+        height: 70vh;
+    }
+
+    .banner__title {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .desc__item, 
+    .desc__item-2,
+    .desc__design {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .desc__item-img1,
+    .desc__item-img2 {
+        max-width: 610px;
+        width: 100%;
+    }
+
+    .desc__item-img3 {
+        height: 70vh;
+    }
+
+    .collection__cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and (max-width:576px) {
-    
+    .desc__item-img1,
+    .desc__item-img2 {
+        max-width: 546px;
+        width: 100%;
+    }
+
+    .desc__item-img3 {
+        height: 60vh;
+    }
 }
 
 @media screen and (max-width:460px) {
+    .nav__menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .desc__item-p,
+    .desc__design-p,
+    .collection__cards-item-h,
+    .collection__cards-item-p {
+        font-size: 12px;
+    }
+
+    .banner__title {
+        font-size: 30px;
+    }
+
+    .nav__menu-link,
+    .banner__button {
+        font-size: 14px;
+    }
+
+    .banner {
+        background: url(../img/banner.png) no-repeat center/cover;
+        height: 40vh;
+    }
+
+    .desc__item, 
+    .desc__item-2,
+    .desc__design {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .desc__item-img1,
+    .desc__item-img2 {
+        max-width: 430px;
+        width: 100%;
+    }
+
+    .desc__item-img3 {
+        height: 40vh;
+    }
+
+    .collection__cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer__pay {
+        display: flex;
+        flex-direction: column;
+    }
     
 }
 
 @media screen and (max-width:420px) {
+    .nav__menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .desc__item-p,
+    .desc__design-p,
+    .collection__cards-item-h,
+    .collection__cards-item-p {
+        font-size: 12px;
+    }
+
+    .banner__title {
+        font-size: 30px;
+    }
+
+    .nav__menu-link,
+    .banner__button {
+        font-size: 14px;
+    }
+
+    .banner {
+        background: url(../img/banner.png) no-repeat center/cover;
+        height: 40vh;
+    }
+
+    .desc__item, 
+    .desc__item-2,
+    .desc__design {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .desc__item-img1,
+    .desc__item-img2 {
+        max-width: 390px;
+        width: 100%;
+    }
+
+    .desc__item-img3 {
+        height: 40vh;
+    }
+
+    .collection__cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer__pay {
+        display: flex;
+        flex-direction: column;
+    }
     
 }
 
 @media screen and (max-width:360px) {
-    
+    .nav__menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .desc__item-p,
+    .desc__design-p,
+    .collection__cards-item-h,
+    .collection__cards-item-p {
+        font-size: 12px;
+    }
+
+    .banner__title {
+        font-size: 30px;
+    }
+
+    .nav__menu-link,
+    .banner__button {
+        font-size: 14px;
+    }
+
+    .banner {
+        background: url(../img/banner.png) no-repeat center/cover;
+        height: 40vh;
+    }
+
+    .desc__item, 
+    .desc__item-2,
+    .desc__design {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .desc__item-img1,
+    .desc__item-img2 {
+        max-width: 330px;
+        width: 100%;
+    }
+
+    .desc__item-img3 {
+        height: 40vh;
+    }
+
+    .collection__cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer__pay {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width:320px) {
